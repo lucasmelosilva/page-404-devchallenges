@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Roboto:wght@400;700&display=swap');
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Space Mono',  monospace;
+  color: #4F4F4F;
+  padding: 35px 50px;
+}
+
+.header-title {
+  color: #333;
+  font-family: 'Inconsolata', monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+
+  line-height: 25.18px;
+  letter-spacing: -0.08em;
+
+  text-transform: uppercase;
+}
