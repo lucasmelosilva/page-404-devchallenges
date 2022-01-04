@@ -7,9 +7,14 @@
   font-style: normal;
   
   padding: 35px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-title {
+  align-self: flex-start;
   color: #333333;
   
   font-family: "Inconsolata", monospace;
@@ -31,6 +36,7 @@ main {
   
   margin-top: 5em;
   margin-left: 2em;
+  margin-bottom: 5rem;
 }
 
 .illustration {
@@ -66,10 +72,19 @@ main {
   line-height: 21px;
   letter-spacing: -0.035em;
   text-transform: uppercase;
+  text-decoration: none;
   width: 216px;
   height: 68px;
 
   background-color: #333;
 
   padding: 20px 28px;
+}
+
+.text-footer {
+  color: #BDBDBD;
+  font-size: 14px;
+  font-weight: 500;
+  line-height:17px;
+  text-align: center;
 }
