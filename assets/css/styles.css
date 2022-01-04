@@ -88,3 +88,37 @@ main {
   line-height:17px;
   text-align: center;
 }
+
+@media screen and (max-width:  760px) {
+  .container {
+    padding: 0;
+  }
+
+
+  .header-title {
+    margin-top: 25px;
+    margin-left: 30px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .illustration {
+       width: 16rem;
+    margin-left: 50px;
+  }
+
+  .description-title {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 17rem;
+    margin-top: 2.5rem;
+  }
+
+  .description p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    width: 16rem;
+  }
+}
